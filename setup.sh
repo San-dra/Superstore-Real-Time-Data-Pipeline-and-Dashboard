@@ -1,3 +1,34 @@
+#!/bin/bash
+
+# Define project root
+PROJECT_NAME="superstore-data-pipeline"
+mkdir -p $PROJECT_NAME && cd $PROJECT_NAME
+
+# Create root files
+touch README.md LICENSE .gitignore requirements.txt
+
+# Folders with README
+folders=(
+  "01_data_generation"
+  "01_data_generation/config"
+  "02_data_ingestion"
+  "02_data_ingestion/utils"
+  "03_data_warehouse"
+  "03_data_warehouse/schema"
+  "03_data_warehouse/transformations"
+  "04_dashboard"
+  "04_dashboard/utils"
+  "05_orchestration"
+  "06_docs"
+)
+
+for folder in "${folders[@]}"; do
+  mkdir -p "$folder"
+  echo "# $(basename "$folder")" > "$folder/README.md"
+done
+
+# Sample README.md content
+cat > README.md << 'EOF'
 # Superstore Data Pipeline 🚀
 
 An end-to-end data pipeline project simulating a superstore's transaction data and real-time dashboard.

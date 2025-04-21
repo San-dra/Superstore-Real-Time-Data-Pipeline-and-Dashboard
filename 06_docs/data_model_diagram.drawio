@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.12" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.13" pages="2">
   <diagram id="11JbLblLTnK9MTOFI7WO" name="conceptual_diagram">
     <mxGraphModel dx="1958" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="data_model" id="WykbW2VhOh-OU126FUSZ">
-    <mxGraphModel dx="3215" dy="1411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2152" dy="526" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,13 +202,13 @@
           <mxGeometry x="-848" y="108" width="848" height="753" as="geometry" />
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-229" value="&lt;font face=&quot;Spline Sans Mono SemiBold&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;line-height: 110%; color: rgb(51, 62, 75); font-size: 15px;&quot;&gt;Product Inventory&lt;/font&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;dashPattern=8 8;align=left;labelPosition=center;strokeColor=#9AC7BF;" parent="1" vertex="1">
-          <mxGeometry x="931" y="106" width="853" height="702" as="geometry" />
+          <mxGeometry x="931" y="106" width="1055" height="755" as="geometry" />
         </mxCell>
         <mxCell id="Fx5C9bnQ34uH0TO9ncKX-2" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;span style=&quot;color: rgb(89, 89, 89);&quot;&gt;Superstore: Real Time Data Pipeline&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=hor;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;labelPosition=center;align=left;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;fontSize=16;spacingRight=0;spacing=12;strokeColor=light-dark(#ffffff, #ededed);fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="-850" width="850" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fx5C9bnQ34uH0TO9ncKX-3" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;sales_transactions&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#83C6CC;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
-          <mxGeometry x="63" y="546" width="214" height="300" as="geometry" />
+          <mxGeometry x="63" y="546" width="214" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Fx5C9bnQ34uH0TO9ncKX-4" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="Fx5C9bnQ34uH0TO9ncKX-3" vertex="1">
           <mxGeometry y="30" width="214" height="30" as="geometry" />
@@ -288,34 +288,21 @@
             <mxRectangle width="154" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="Fx5C9bnQ34uH0TO9ncKX-3">
+        <mxCell id="hUOMM884D25KCHGTqsTX-41" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="Fx5C9bnQ34uH0TO9ncKX-3" vertex="1">
           <mxGeometry y="210" width="214" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-42" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-41">
+        <mxCell id="hUOMM884D25KCHGTqsTX-42" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-41" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-43" value="payment_id" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-41">
-          <mxGeometry x="60" width="154" height="30" as="geometry">
-            <mxRectangle width="154" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-38" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="Fx5C9bnQ34uH0TO9ncKX-3">
-          <mxGeometry y="240" width="214" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-39" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-38">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-40" value="payment_method_id" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-38">
+        <mxCell id="hUOMM884D25KCHGTqsTX-43" value="paymeth_id" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-41" vertex="1">
           <mxGeometry x="60" width="154" height="30" as="geometry">
             <mxRectangle width="154" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Fx5C9bnQ34uH0TO9ncKX-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="Fx5C9bnQ34uH0TO9ncKX-3" vertex="1">
-          <mxGeometry y="270" width="214" height="30" as="geometry" />
+          <mxGeometry y="240" width="214" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fx5C9bnQ34uH0TO9ncKX-14" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="Fx5C9bnQ34uH0TO9ncKX-13" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -664,28 +651,28 @@
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-7" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-1" vertex="1">
           <mxGeometry y="150" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-8" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-7">
+        <mxCell id="hUOMM884D25KCHGTqsTX-8" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-7" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-9" value="first_name" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-7">
+        <mxCell id="hUOMM884D25KCHGTqsTX-9" value="first_name" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-7" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-10" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-1" vertex="1">
           <mxGeometry y="180" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-11" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-10">
+        <mxCell id="hUOMM884D25KCHGTqsTX-11" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-10" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-12" value="last_name" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-10">
+        <mxCell id="hUOMM884D25KCHGTqsTX-12" value="last_name" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-10" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -716,41 +703,41 @@
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-1" vertex="1">
           <mxGeometry y="270" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-2" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-2" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-1" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-3" value="phone_number" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-3" value="phone_number" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-1" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-4" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-4" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-1" vertex="1">
           <mxGeometry y="300" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-5" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-4">
+        <mxCell id="hUOMM884D25KCHGTqsTX-5" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-4" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-6" value="date_of_birth" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-4">
+        <mxCell id="hUOMM884D25KCHGTqsTX-6" value="date_of_birth" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-4" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-13" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-1" vertex="1">
           <mxGeometry y="330" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-14" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-13">
+        <mxCell id="hUOMM884D25KCHGTqsTX-14" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-13" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-15" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-13">
+        <mxCell id="hUOMM884D25KCHGTqsTX-15" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-13" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -798,7 +785,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-65" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;product_info&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#B8BAAA;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
-          <mxGeometry x="971" y="136" width="270" height="150" as="geometry" />
+          <mxGeometry x="971" y="136" width="270" height="180" as="geometry" />
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-66" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-65" vertex="1">
           <mxGeometry y="30" width="270" height="30" as="geometry" />
@@ -821,7 +808,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-71" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;category&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-69" vertex="1">
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-71" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;product_category&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-69" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -834,7 +821,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-176" value="sub_category" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-174" vertex="1">
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-176" value="product_subcategory" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-174" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -852,6 +839,19 @@
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-65">
+          <mxGeometry y="150" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-4" value="f(x)" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-3">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-5" value="quantity_available" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-3">
+          <mxGeometry x="60" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-81" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERoneToMany;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;startFill=0;" parent="1" source="Fx5C9bnQ34uH0TO9ncKX-84" target="RcrwvDNwSDzIbEaf6MxV-66" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="541" y="434" as="sourcePoint" />
@@ -864,8 +864,8 @@
             <mxPoint x="177" y="309" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-108" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;shop_info&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#B8BAAA;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
-          <mxGeometry x="-421" y="594" width="270" height="210" as="geometry" />
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-108" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_info&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#B8BAAA;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
+          <mxGeometry x="-421" y="594" width="270" height="150" as="geometry" />
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-109" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-108" vertex="1">
           <mxGeometry y="30" width="270" height="30" as="geometry" />
@@ -875,7 +875,7 @@
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-111" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;shop_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-109" vertex="1">
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-111" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-109" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -893,21 +893,8 @@
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-115" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-108" vertex="1">
-          <mxGeometry y="90" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-116" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-115" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-117" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;loyalty_id&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-115" vertex="1">
-          <mxGeometry x="60" width="210" height="30" as="geometry">
-            <mxRectangle width="210" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-118" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-108" vertex="1">
-          <mxGeometry y="120" width="270" height="30" as="geometry" />
+          <mxGeometry y="90" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-119" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-118" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
@@ -920,27 +907,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-121" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-108" vertex="1">
-          <mxGeometry y="150" width="270" height="30" as="geometry" />
+          <mxGeometry y="120" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-122" value="" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-121" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-123" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;email&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-121" vertex="1">
-          <mxGeometry x="60" width="210" height="30" as="geometry">
-            <mxRectangle width="210" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-124" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#F0F2E1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-108" vertex="1">
-          <mxGeometry y="180" width="270" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-125" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-124" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-126" value="tier" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-124" vertex="1">
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-123" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_name&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#F0F2E1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-121" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1024,168 +998,6 @@
             <mxPoint x="-420" y="398" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-231" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot;&gt;product_restocks&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#83C6CC;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
-          <mxGeometry x="1287" y="132" width="230" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="30" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-233" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-232" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-234" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-232" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-235" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="60" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-236" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-235" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-237" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_timestamp&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-235" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-238" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="90" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-239" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-238" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-240" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_id&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-238" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-241" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="120" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-242" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-241" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-243" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;product_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-241" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-250" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="150" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-251" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-250" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-252" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;quantity_change&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-250" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-272" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="180" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-273" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-272" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-274" value="unit_cost" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-272" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-269" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
-          <mxGeometry y="210" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-270" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-269" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-271" value="total_cost" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-269" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-253" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot;&gt;product_restocks&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#83C6CC;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="340" width="230" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-254" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-253" vertex="1">
-          <mxGeometry y="30" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-255" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-254" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-256" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-254" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-257" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-253" vertex="1">
-          <mxGeometry y="60" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-258" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-257" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-259" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_timestamp&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-257" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-260" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-253" vertex="1">
-          <mxGeometry y="90" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-261" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-260" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-262" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_id&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-260" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-263" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-253" vertex="1">
-          <mxGeometry y="120" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-264" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-263" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-265" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;product_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-263" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-266" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-253" vertex="1">
-          <mxGeometry y="150" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-267" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-266" vertex="1">
-          <mxGeometry width="60" height="30" as="geometry">
-            <mxRectangle width="60" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-268" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;quantity_change&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-266" vertex="1">
-          <mxGeometry x="60" width="170" height="30" as="geometry">
-            <mxRectangle width="170" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RcrwvDNwSDzIbEaf6MxV-280" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" parent="1" source="RcrwvDNwSDzIbEaf6MxV-31" target="RcrwvDNwSDzIbEaf6MxV-84" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="516" y="451" as="sourcePoint" />
@@ -1240,178 +1052,339 @@
             <mxPoint x="948" y="564" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RcrwvDNwSDzIbEaf6MxV-282" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERoneToMany;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;endFill=0;startFill=0;" parent="1" source="RcrwvDNwSDzIbEaf6MxV-232" target="RcrwvDNwSDzIbEaf6MxV-194" edge="1">
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-282" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=oval;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;endFill=0;startFill=1;" parent="1" source="RcrwvDNwSDzIbEaf6MxV-232" target="RcrwvDNwSDzIbEaf6MxV-194" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="1192" y="427" as="sourcePoint" />
             <mxPoint x="1298" y="591" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-33" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-33" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-802" y="163" width="270" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-16" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;f(X) customer_tier&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#FFD966;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" vertex="1" parent="hUOMM884D25KCHGTqsTX-33">
+        <mxCell id="hUOMM884D25KCHGTqsTX-16" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;f(X) customer_tier&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#FFD966;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="hUOMM884D25KCHGTqsTX-33" vertex="1">
           <mxGeometry width="270" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-16">
+        <mxCell id="hUOMM884D25KCHGTqsTX-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-16" vertex="1">
           <mxGeometry y="30" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-18" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-17">
+        <mxCell id="hUOMM884D25KCHGTqsTX-18" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-17" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-19" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;customer_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-17">
+        <mxCell id="hUOMM884D25KCHGTqsTX-19" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;customer_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-17" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-16">
+        <mxCell id="hUOMM884D25KCHGTqsTX-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-16" vertex="1">
           <mxGeometry y="60" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-21" value="" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-20">
+        <mxCell id="hUOMM884D25KCHGTqsTX-21" value="" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-20" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-22" value="life_time_value" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-20">
+        <mxCell id="hUOMM884D25KCHGTqsTX-22" value="life_time_value" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-20" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-16">
+        <mxCell id="hUOMM884D25KCHGTqsTX-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-16" vertex="1">
           <mxGeometry y="90" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-24" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-23">
+        <mxCell id="hUOMM884D25KCHGTqsTX-24" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-23" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-25" value="update_date" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-23">
+        <mxCell id="hUOMM884D25KCHGTqsTX-25" value="update_date" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-23" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-16">
+        <mxCell id="hUOMM884D25KCHGTqsTX-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-16" vertex="1">
           <mxGeometry y="120" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-31" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-30">
+        <mxCell id="hUOMM884D25KCHGTqsTX-31" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-30" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-32" value="tier" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-30">
+        <mxCell id="hUOMM884D25KCHGTqsTX-32" value="tier" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-30" vertex="1">
           <mxGeometry x="60" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-29" value="&lt;font style=&quot;font-size: 11px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+&quot; face=&quot;Spline Sans Mono&quot;&gt;a sql procedure or airflow incremental update.&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=#f5f5f5;align=left;verticalAlign=top;fontColor=#333333;strokeColor=#5A4D24;spacing=4;spacingLeft=8;spacingRight=8;" vertex="1" parent="hUOMM884D25KCHGTqsTX-33">
+        <mxCell id="hUOMM884D25KCHGTqsTX-29" value="&lt;font style=&quot;font-size: 11px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+&quot; face=&quot;Spline Sans Mono&quot;&gt;a sql procedure or airflow incremental update.&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=#f5f5f5;align=left;verticalAlign=top;fontColor=#333333;strokeColor=#5A4D24;spacing=4;spacingLeft=8;spacingRight=8;" parent="hUOMM884D25KCHGTqsTX-33" vertex="1">
           <mxGeometry x="1" y="150" width="269" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-34" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="hUOMM884D25KCHGTqsTX-17" target="RcrwvDNwSDzIbEaf6MxV-2">
+        <mxCell id="hUOMM884D25KCHGTqsTX-34" value="" style="fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="hUOMM884D25KCHGTqsTX-17" target="RcrwvDNwSDzIbEaf6MxV-2" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-520" y="561" as="sourcePoint" />
             <mxPoint x="-401" y="349" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-44" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="hUOMM884D25KCHGTqsTX-44" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1280" y="542" width="344" height="202" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-45" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;f(X) weekly_product_sale&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#FFD966;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" vertex="1" parent="hUOMM884D25KCHGTqsTX-44">
+        <mxCell id="hUOMM884D25KCHGTqsTX-45" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;f(X) weekly_product_sale&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#FFD966;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="hUOMM884D25KCHGTqsTX-44" vertex="1">
           <mxGeometry width="344" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="30" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-47" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-46">
+        <mxCell id="hUOMM884D25KCHGTqsTX-47" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-46" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-48" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;id(update_timestamp_autoincrement)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-46">
+        <mxCell id="hUOMM884D25KCHGTqsTX-48" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;id(update_timestamp_autoincrement)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-46" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-52" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="60" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-53" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-52">
+        <mxCell id="hUOMM884D25KCHGTqsTX-53" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-52" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-54" value="update_date" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-52">
+        <mxCell id="hUOMM884D25KCHGTqsTX-54" value="update_date" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-52" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-65" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="90" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-66" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-65">
+        <mxCell id="hUOMM884D25KCHGTqsTX-66" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-65" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-67" value="&lt;span style=&quot;white-space-collapse: preserve; text-decoration-line: underline;&quot;&gt;store_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-65">
+        <mxCell id="hUOMM884D25KCHGTqsTX-67" value="&lt;span style=&quot;white-space-collapse: preserve; text-decoration-line: underline;&quot;&gt;store_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-65" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-77" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="120" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-78" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-77">
+        <mxCell id="hUOMM884D25KCHGTqsTX-78" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-77" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-79" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-77">
+        <mxCell id="hUOMM884D25KCHGTqsTX-79" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-77" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-55" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-55" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="150" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-56" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-55">
+        <mxCell id="hUOMM884D25KCHGTqsTX-56" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-55" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-57" value="average_sale_rate (quantity)" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-55">
+        <mxCell id="hUOMM884D25KCHGTqsTX-57" value="average_sale_rate (quantity)" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-55" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-59" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-59" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="180" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-60" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-59">
+        <mxCell id="hUOMM884D25KCHGTqsTX-60" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-59" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-61" value="average_shelf_life" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-59">
+        <mxCell id="hUOMM884D25KCHGTqsTX-61" value="average_shelf_life" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-59" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-45">
+        <mxCell id="hUOMM884D25KCHGTqsTX-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-45" vertex="1">
           <mxGeometry y="210" width="344" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-63" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-62">
+        <mxCell id="hUOMM884D25KCHGTqsTX-63" value="&lt;i&gt;f(x)&lt;/i&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-62" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-64" value="restock_amount" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="hUOMM884D25KCHGTqsTX-62">
+        <mxCell id="hUOMM884D25KCHGTqsTX-64" value="restock_amount" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="hUOMM884D25KCHGTqsTX-62" vertex="1">
           <mxGeometry x="60" width="284" height="30" as="geometry">
             <mxRectangle width="284" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hUOMM884D25KCHGTqsTX-58" value="&lt;font style=&quot;font-size: 11px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+&quot; face=&quot;Spline Sans Mono&quot;&gt;order by subcategory and brand, precedural sql table that calculated the average sale per&amp;nbsp;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=#f5f5f5;align=left;verticalAlign=top;fontColor=#333333;strokeColor=#5A4D24;spacing=4;spacingLeft=8;spacingRight=8;" vertex="1" parent="hUOMM884D25KCHGTqsTX-44">
-          <mxGeometry x="0.003023226616446824" y="180" width="342.72592592592594" height="52" as="geometry" />
+        <mxCell id="hUOMM884D25KCHGTqsTX-58" value="&lt;font style=&quot;font-size: 11px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+&quot; face=&quot;Spline Sans Mono&quot;&gt;order by subcategory and brand, precedural sql table that calculated the average sale per&amp;nbsp;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=#f5f5f5;align=left;verticalAlign=top;fontColor=#333333;strokeColor=#5A4D24;spacing=4;spacingLeft=8;spacingRight=8;" parent="1" vertex="1">
+          <mxGeometry x="1281.2730232266165" y="785" width="342.72592592592594" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1287" y="132" width="300" height="307" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-231" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot;&gt;product_restocks&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#83C6CC;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" parent="HBoZzwlWHxYiGrXbkhbb-2" vertex="1">
+          <mxGeometry width="300" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-232" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-233" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-232" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-234" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_id (timestamp, prod,store)&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-232" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-235" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="60" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-236" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-235" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-237" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;restock_timestamp&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-235" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-238" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-239" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-238" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-240" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;store_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-238" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-241" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="120" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-242" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-241" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-243" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;product_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-241" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="RcrwvDNwSDzIbEaf6MxV-231">
+          <mxGeometry y="150" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-7" value="FK" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-6">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-8" value="seller_id" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-6">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-250" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="180" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-251" value="" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-250" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-252" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;quantity_change&lt;/span&gt;&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-250" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-272" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-273" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-272" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-274" value="unit_cost" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-272" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-269" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#DEEEEB;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-231" vertex="1">
+          <mxGeometry y="240" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-270" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-269" vertex="1">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RcrwvDNwSDzIbEaf6MxV-271" value="total_cost" style="shape=partialRectangle;connectable=0;fillColor=#DEEEEB;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" parent="RcrwvDNwSDzIbEaf6MxV-269" vertex="1">
+          <mxGeometry x="60" width="240" height="30" as="geometry">
+            <mxRectangle width="240" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-1" value="&lt;font style=&quot;font-size: 11px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+&quot; face=&quot;Spline Sans Mono&quot;&gt;initiated by sellers. they restock to a physical store and the delivery is done from that store.&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=#f5f5f5;align=left;verticalAlign=top;fontColor=#333333;strokeColor=#5A4D24;spacing=4;spacingLeft=8;spacingRight=8;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-2">
+          <mxGeometry y="239.9990220820189" width="300" height="63.9179810725552" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-9" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Spline+Sans+Mono+SemiBold&quot; style=&quot;&quot;&gt;seller_info&lt;/font&gt;&lt;/span&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;whiteSpace=wrap;fillStyle=solid;fillColor=#7FD1AE;strokeColor=none;fontFamily=Spline Sans Mono SemiBold;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2BSemiBold;labelBackgroundColor=none;fontColor=#333E4B;" vertex="1" parent="1">
+          <mxGeometry x="1689" y="140" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-9">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-11" value="PK" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;fontStyle=0;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-10">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-12" value="&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;seller_id&lt;/span&gt;" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=4;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-10">
+          <mxGeometry x="60" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-13" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-9">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-14" value="" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-13">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-15" value="seller_name" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-13">
+          <mxGeometry x="60" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-16" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=#E6F4F1;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;html=1;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-9">
+          <mxGeometry y="90" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-17" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-16">
+          <mxGeometry width="60" height="30" as="geometry">
+            <mxRectangle width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-18" value="brand_name" style="shape=partialRectangle;connectable=0;fillColor=#E6F4F1;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;strokeColor=inherit;fontFamily=Spline Sans Mono ;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DSpline%2BSans%2BMono%2B;fontColor=#333E4B;fontStyle=0;labelBackgroundColor=none;" vertex="1" parent="HBoZzwlWHxYiGrXbkhbb-16">
+          <mxGeometry x="60" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HBoZzwlWHxYiGrXbkhbb-22" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERoneToMany;rounded=0;flowAnimation=1;dashed=1;strokeWidth=2;strokeColor=#324B4D;endFill=0;startFill=0;exitX=0.974;exitY=0.642;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HBoZzwlWHxYiGrXbkhbb-6" target="HBoZzwlWHxYiGrXbkhbb-10">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1297" y="187" as="sourcePoint" />
+            <mxPoint x="1224" y="536" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
